@@ -1,0 +1,32 @@
+.rodape{
+    background-color: var(--fundo-rodape);
+    color: var(--preto); 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 24px; 
+    text-align: center;
+}
+
+.rodape__secundario{
+    background-color: var(--fundo-rodape);
+    color: var(--preto);  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 15% 0% 8% 0%;
+    padding: 24px;
+    text-align: center;
+}
+
+@media screen and (max-width: 393px) {
+.rodape , .rodape__secundario{
+    width: 150vw;
+ }
+}
+
+@media screen and (max-width: 280px) {
+.rodape , .rodape__secundario{
+    width: 190vw;
+ }
+}

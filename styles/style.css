@@ -1,0 +1,33 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap' );
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script:wght@600 & display=swap');
+
+:root{
+    --preto: #000000;
+    --titulo-destaque:  rgb(156, 123, 189);
+    --branco: #F6F6F6; 
+    --fundo-imagem:  rgb(122, 35, 86);
+    --cinza: #968d8d;
+    --rosa: rgb(238, 113, 182);
+    --cor-transformação:  #272727;
+    --cor-menu-link: rgb(127, 85, 168);
+    --menu-link-ativo: #c4a1bf;
+    --fundo-rodape: rebeccapurple;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body{
+    background-image: url(../assets/céu.jpg);
+    background-color: var(--preto);
+    box-sizing: border-box;
+    color: var(--branco); 
+}
+.título-destaque{
+    color: var(--titulo-destaque)
+}
+
+        
+    

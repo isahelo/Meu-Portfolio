@@ -1,0 +1,134 @@
+.apresentacao{
+    padding: 4% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+.apresentacao__titulo{
+    font-family: 'Krona One', sans-serif;
+    font-size: 2.25rem;
+}
+.apresentacao__imagem{
+    border: 5px solid var(--fundo-imagem);
+    border-radius: 49%;
+    width: 50%; 
+    width: 350px;
+ }
+.apresentacao__conteudo{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%
+ }
+
+ @media screen and (max-width: 795px){    
+ .apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    }
+.apresentacao__imagem{
+    width: 50%;
+    margin-left: 50%;
+    }
+.apresentacao__titulo{
+    padding: auto;
+    text-align: center;
+    font-size: 50px;
+    }
+.apresentacao__texto{
+    text-align: center;
+    font-size: 70px;
+    }
+}
+@media screen and (max-width: 1024px) {
+.apresentacao__imagem{
+    width: 380px;
+    height: 300px;
+      
+    }  
+}
+
+@media screen and (max-width: 540px){
+.apresentacao__imagem{
+    width: 200px;
+}
+}
+
+@media screen and (min-width: 412px){
+.apresentacao__imagem{
+    width: 260px;
+    height: 260px;
+    padding-left: 15px;
+    margin-left: 25px;
+    display: flex;
+    margin-bottom: 15%;
+}
+.apresentacao__texto{
+    text-align: center;
+    font-size: 30px;
+    color: var(--cinza);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+ }
+.apresentacao__titulo{
+   font-size: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+.apresentacao__titulo-secundario{
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px; 
+  margin-bottom: 10%;
+}
+}
+
+ @media screen and (max-width: 393px) {
+.apresentacao{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto 55%;
+ }
+ .apresentacao__conteudo{
+    align-items: center;
+    padding: 7% 45% 5% 40%; 
+    text-align: center;
+    width: 80vw;
+}
+.apresentacao__imagem{
+    width: 290px;
+    margin: auto 10%;
+    margin-bottom: 30px;
+}
+.apresentacao__titulo{
+    font-size: 36px;
+    text-align: center;
+    align-items: center;
+}
+ .apresentacao__texto{
+    font-size: 32px;
+    text-align: center;
+    align-items: center;
+}
+ .apresentacao__titulo-secundario{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin: 10% auto;
+ }
+ }
+ @media screen and (max-width: 280px){
+.apresentacao{
+   margin: auto 75%;
+}
+}
